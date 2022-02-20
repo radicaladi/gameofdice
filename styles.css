@@ -1,0 +1,32 @@
+.wrapper {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-size: 8rem;
+    text-shadow: 5px 0 #232931;
+    color: #4ECCA3;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+div {
+    display: flex;
+    justify-content: space-evenly;
+}
+section, p {
+    font-size: 2rem;
+    margin: 1em 0;
+    align-self: flex-end;
+}
+img {
+    width: 80%;
+}
+footer {
+    margin-top: 5%;
+}
