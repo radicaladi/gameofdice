@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
     <title>Dice Game</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        div {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        section, article {
+            border: 1px solid lightgrey;
+            margin: 1em 0;
+            align-self: flex-end;
+        }
+    </style>
 </head>
 <body>
 <header>
@@ -12,8 +28,22 @@
     </h1>
 </header>
 <main>
-    <section></section>
-    <section></section>
+    <div>
+        <article>
+            Player 1
+        </article>
+        <article>
+            Player 2
+        </article>
+    </div>
+    <div>
+        <section>
+            <img src="assets/images/dice1.png" alt="dice-side-1">
+        </section>
+        <section>
+            <img src="assets/images/dice1.png" alt="dice-side-1">
+        </section>
+    </div>
 </main>
 <footer></footer>
 
