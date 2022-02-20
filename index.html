@@ -4,48 +4,35 @@
     <meta charset="UTF-8">
     <title>Dice Game</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        main {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-        }
-        div {
-            display: flex;
-            justify-content: space-evenly;
-        }
-        section, article {
-            border: 1px solid lightgrey;
-            margin: 1em 0;
-            align-self: flex-end;
-        }
-    </style>
 </head>
 <body>
-<header>
-    <h1>
-        Dice Game
-    </h1>
-</header>
-<main>
-    <div>
-        <article>
-            Player 1
-        </article>
-        <article>
-            Player 2
-        </article>
-    </div>
-    <div>
-        <section>
-            <img src="assets/images/dice6.png" alt="dice-side-1">
-        </section>
-        <section>
-            <img src="assets/images/dice6.png" alt="dice-side-1">
-        </section>
-    </div>
-</main>
-<footer></footer>
+<div class="wrapper">
+    <header>
+        <h1 id="hero">
+            Refresh Me
+        </h1>
+    </header>
+    <main>
+        <div>
+            <p>
+                Player 1
+            </p>
+            <p>
+                Player 2
+            </p>
+        </div>
+        <div>
+            <section>
+                <img id="die1" class="dice" src="assets/images/dice6.png" alt="dice-side-1">
+            </section>
+            <section>
+                <img id="die2" class="dice" src="assets/images/dice6.png" alt="dice-side-1">
+            </section>
+        </div>
+    </main>
+    <footer></footer>
+</div>
+
 
 <script src="script.js"></script>
 </body>
