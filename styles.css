@@ -82,3 +82,11 @@ footer {
     text-align: center;
     font-family: 'Poppins', cursive;
 }
+footer a {
+    text-decoration: none;
+    color: #2ecc71;
+}
+.lastP {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+}
